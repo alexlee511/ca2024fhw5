@@ -16,7 +16,7 @@ MonoBehaviour:
   m_Loop: 0
   m_bufferingTime: 0.1
   m_ClipProperties:
-    volume: 0.8
+    volume: 0.9
 --- !u!114 &-1250288528905176418
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_Name: RecorderClip
   m_EditorClassIdentifier: 
   enabled: 1
-  take: 6
+  take: 11
   captureEveryNthFrame: 1
   fileNameGenerator:
     m_Path:
@@ -141,12 +141,12 @@ MonoBehaviour:
       m_OutputResolution:
         m_CustomWidth: 1024
         m_CustomHeight: 1024
-        imageHeight: 720
+        imageHeight: 0
         maxSupportedHeight: 2160
         m_AspectRatio:
           m_CustomAspectX: 1
           m_CustomAspectY: 1
-          m_ImageAspect: 1
+          m_ImageAspect: 2
       flipFinalOutput: 0
     cameraInputSettings:
       m_OutputResolution:
